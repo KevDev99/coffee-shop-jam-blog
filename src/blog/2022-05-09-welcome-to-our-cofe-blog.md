@@ -1,6 +1,7 @@
 ---
 title: Welcome to our Cofe Blog
 date: 2022-05-09T07:24:36.335Z
+contentKey: blog
 ---
 # Hello !
 
