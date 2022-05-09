@@ -35,6 +35,7 @@ exports.createPages = async function ({ graphql, actions }) {
   `);
 
   const posts = result.data.allMarkdownRemark.edges.filter(edge => edge.node.frontmatter.contentKey === 'blog');
+  
   posts.forEach(({ node }) => {
     createPage({
       path: node.fields.slug,
