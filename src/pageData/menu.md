@@ -6,5 +6,5 @@ categories:
       - name: Iced Coffee
         description: |
           Fresh brewed and served over ice
-        price: "2.49"
+        price: $2.49
 ---
