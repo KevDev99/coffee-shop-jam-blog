@@ -24,3 +24,16 @@ collections:
       - label: "Body"
         name: "body"
         widget: "markdown"
+  - name: "pages"
+    label: "Pages"
+    files:
+      - file: "src/pageData/index.md"
+        label: "Index Page"
+        name: "index-page"
+        fields:
+          - name: "contenKey"
+            widget: "hidden"
+            default: "indexPage"
+          - label: "Tagline"
+            name: "heroImage"
+            widget: "image"
